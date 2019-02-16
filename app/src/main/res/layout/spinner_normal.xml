@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="7dp"
+              android:textColor="@android:color/holo_green_light"
+              android:textSize="20sp"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:minHeight="?listPreferredItemHeightSmall"
+            android:alwaysDrawnWithCache="true"
+            android:layout_margin="10dp"
+            android:layout_marginTop="7dp"/>
+</LinearLayout>

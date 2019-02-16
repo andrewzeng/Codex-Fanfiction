@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/save_dark"
+        android:orderInCategory="999"
+        android:title="@string/save"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/menu_prev"
+        android:icon="@drawable/prev_dark"
+        android:orderInCategory="1001"
+        android:title="@string/back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_next"
+        android:icon="@drawable/next_dark"
+        android:orderInCategory="1002"
+        android:title="@string/forward"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_reload"
+        android:icon="@drawable/update_dark"
+        android:orderInCategory="2000"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/view_web_icon"
+        android:icon="@drawable/web_dark"
+        android:orderInCategory="2000"
+        android:title="@string/view_browser"
+        app:showAsAction="ifRoom" />
+</menu>

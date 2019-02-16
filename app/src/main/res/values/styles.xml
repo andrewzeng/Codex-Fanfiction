@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Styled" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarSize">48dip</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Style</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+    <style name="ActionBar.Style" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    </style>
+
+    <style name="Theme.Styled.Dark" parent="Theme.AppCompat">
+        <item name="android:actionBarSize">48dip</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+
+</resources>

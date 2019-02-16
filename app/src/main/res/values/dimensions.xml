@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_small">15sp</dimen>
+    <dimen name="text_med">18sp</dimen>
+    <dimen name="text_large">21sp</dimen>
+    <dimen name="text_ultra">24sp</dimen>
+
+    <dimen name="expand_size">5dp</dimen>
+    <dimen name="margin_bottom_groups">3dp</dimen>
+    <dimen name="margin_top_groups">2dp</dimen>
+</resources>

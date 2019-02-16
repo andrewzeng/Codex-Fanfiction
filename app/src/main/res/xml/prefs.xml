@@ -1,0 +1,54 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/reader_settings">
+
+        <CheckBoxPreference
+                android:key="@string/description_style"
+                android:title="@string/description_preview"
+                android:summary="@string/description_settings_summary"
+                android:defaultValue="true"/>
+
+        <com.qan.fiction.custom.IntListPreference
+                android:key="@string/text_size"
+                android:title="@string/font_size"
+                android:summary="@string/font_summary"
+                android:entries="@array/text_size"
+                android:entryValues="@array/size_4"
+                android:defaultValue="1"
+                android:dialogTitle="@string/choose_font"/>
+
+        <CheckBoxPreference
+                android:key="@string/group_crossovers"
+                android:title="@string/group_crossover_text"
+                android:summary="@string/crossover_description"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="@string/keep_screen_on"
+                android:title="@string/screen_on_text"
+                android:summary="@string/screen_on_description"
+                android:defaultValue="true"/>
+
+        <com.qan.fiction.custom.IntListPreference
+                android:key="@string/orientation"
+                android:title="@string/orientation"
+                android:summary="@string/orientation_summary"
+                android:entries="@array/orientation"
+                android:entryValues="@array/size_3"
+                android:defaultValue="0"
+                android:dialogTitle="@string/choose_orientation"/>
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/app_settings">
+        <CheckBoxPreference
+                android:key="@string/light_theme"
+                android:title="@string/use_light_theme"
+                android:summary="@string/light_theme_summary"
+                android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

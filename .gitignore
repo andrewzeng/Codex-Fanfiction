@@ -1,0 +1,12 @@
+.idea/*
+local.properties
+*.iml
+*gradlew*
+import-summary.txt
+gradle/
+.gradle/*
+mint-plugin-repo*
+app/build
+build/
+captures/
+projectFilesBackup/

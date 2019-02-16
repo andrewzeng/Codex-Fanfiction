@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_down"
+        android:icon="@drawable/down_dark"
+        android:orderInCategory="999"
+        android:title="@string/download"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/sort_dark"
+        android:orderInCategory="500"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/update_all"
+        android:icon="@drawable/update_dark"
+        android:orderInCategory="600"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/expand_all"
+        android:orderInCategory="700"
+        android:title="@string/expand_all"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/collapse_all"
+        android:orderInCategory="701"
+        android:title="@string/collapse_all"
+        app:showAsAction="collapseActionView" />
+
+</menu>

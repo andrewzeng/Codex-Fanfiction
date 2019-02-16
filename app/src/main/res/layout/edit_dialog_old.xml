@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:padding="20dp"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:textSize="18sp"
+                  android:text="@string/choose_site"
+                  android:paddingLeft="2dp"
+                  android:paddingRight="5dp"/>
+        <org.holoeverywhere.widget.Spinner
+                android:id="@+id/spinner_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        </org.holoeverywhere.widget.Spinner>
+    </LinearLayout>
+
+    <EditText
+            android:id="@+id/file_id"
+            android:layout_width="match_parent"
+            android:hint="@string/enter_id"
+            android:paddingTop="15dp"
+            android:inputType="number|textShortMessage"
+            android:layout_height="wrap_content">
+
+    </EditText>
+</LinearLayout>

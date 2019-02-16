@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="expand_color">#EE292C31</color>
+    <color name="gradient_bottom">#EE1F1F1F</color>
+    <color name="gradient_mid">#CC2A2C2C</color>
+    <color name="expand_unread">#FFC4FFCA</color>
+    <color name="expand_unread_dark">#ff393d44</color>
+    <color name="gray">#555555</color>
+    <color name="light_gray">#AAAAAA</color>
+</resources>
